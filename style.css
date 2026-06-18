@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout attached to main tag, to split the screen the way I'd like */
+main {
+  display: flex;
+  flex-direction: row;
+}
+.decoBanner {
+  display: block;
+  justify-content: center;
+  margin-top: 60px;
+  width: 30vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right indigo,
+    to left blueviolet,
+    to right blue,
+    to left aqua,
+    to right lawngreen,
+    to left green,
+    to right greenyellow,
+    to left yellow,
+    to right orange,
+    to left red,
+    to right crimson,
+    to left magenta
+  );
+  /* Just a colour tester below to be removed, but to make it simple to fint the names of the base color i'm looking for */
+  color: magenta;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.pfpBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 30px;
+  /* text-align: center; */
+}
+
+.myStats {
+  margin-top: 50px;
+  max-width: 70vw;
+  min-width: 68vw;
+  overflow: hidden;
+  gap: 45px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
