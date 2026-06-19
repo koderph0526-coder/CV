@@ -25,3 +25,5 @@ to left magenta
 ); _/ -----Yes I tried to add a comma behind each of the "to left", but it seems that if there's more than one "to -anything-" in the line of code it stops functioning.
 
 NS: go over css code and see where I can summarize repeating code to a class-function and shorten the code by breaking it up into smaller items with more classes in use in html.
+
+!! Add media query to make it accesible for phone screens without the design breaking/becoming unreadable.
