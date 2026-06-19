@@ -46,7 +46,6 @@ main {
   /* Linear Gradient above this comment is a placeholder until I can get the effect I want working, note search 
   multi direction flow for linear gradient and also check https://csshero.org/mesher/ which is likely the simplest solution */
   gap: 20px;
-  text-align: left;
 }
 
 img {
