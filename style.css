@@ -8,6 +8,7 @@ main {
   display: flex;
   flex-direction: row;
   background-color: #f2f7fc;
+  color: #080808;
 }
 
 /* Text shadow to give extra clarity to text on rainbow background */
@@ -55,8 +56,9 @@ main {
 
 img {
   display: flex;
-  width: 100%;
+  width: 105%;
 }
+/* Styling the figure conatining the img */
 .pfpBox {
   display: flex;
   justify-content: center;
@@ -89,28 +91,59 @@ img {
   align-items: left;
   background-color: aliceblue;
   margin-top: 50px;
-  max-width: 70vw;
-  min-width: 68vw;
+  max-width: 90vw;
+  min-width: 70vw;
   overflow: hidden;
-  margin-left: 65px;
-  margin-right: 250px;
-  padding: 20px;
+  margin-left: rem;
+  /* margin-right: 10rem; */
+  padding: 20px 50px;
   gap: 35px;
 }
 
 /* flow utility added to div with text in section/myStats to better restrict the space availible for the text */
 .flowUt {
-  margin-left: 20px;
-  margin-right: 220px;
+  margin-left: 0.8rem;
+  margin-right: 5rem;
+}
+
+p {
+  margin-top: 0.5rem;
 }
 
 /* Possibly a good idea to add a tad of styling to the span, could add a utility class to it instead => point being; give the span content som extra air and focus */
 .spanFocus {
-  display: inline-block;
+  display: block;
+  width: 9rem;
+}
+
+.italicTxt {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.summaryWork {
+  font-size: 16px;
+  /* padding-left: 1rem; */
+}
+
+.jobDetail {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.5rem;
+}
+
+.jobCalendar {
+  font-size: 14px;
 }
 
 .funfactBox {
   width: 40vw;
   margin-top: 40px;
   font-style: italic;
+}
+
+@media print {
+  body {
+    color: #030303;
+  }
 }
