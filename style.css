@@ -12,7 +12,7 @@ main {
 
 /* Text shadow to give extra clarity to text on rainbow background */
 .textShow {
-  text-shadow: #f4eded 1px 2px 7px;
+  text-shadow: #f5f2f2 0px 0px 10px;
 }
 .decoBanner {
   display: flex;
@@ -102,6 +102,11 @@ img {
 .flowUt {
   margin-left: 20px;
   margin-right: 220px;
+}
+
+/* Possibly a good idea to add a tad of styling to the span, could add a utility class to it instead => point being; give the span content som extra air and focus */
+.spanFocus {
+  display: inline-block;
 }
 
 .funfactBox {
